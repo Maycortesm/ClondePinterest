@@ -41,25 +41,26 @@ li{
 }
 
 .search{
-    margin: 13px;
+    margin: 10px;
 }
 
 .search {
         display: flex;
         height: auto;
-        padding: 10px 200px;
-        border: 1.5px solid gray;
+        padding: 15px 15px 5px;
+        border: 1px solid gray;
         border-radius: 24px;
 }
 
 input{
-    width: 200px;
+    width: 500px;
     border: none;
     outline: none;;
 }
 
 .header_input :hover{
-   background-color:lightgrey
+   background-color: lightgrey;
+   align-items: center;
 }
 
 input :hover{
@@ -70,8 +71,9 @@ a {
     text-decoration: none;
     cursor: pointer;
 }
+
 .content {
-    columns: 5 220px;
+    columns: 5 250px;
 }
 
 /*Media Query*/
